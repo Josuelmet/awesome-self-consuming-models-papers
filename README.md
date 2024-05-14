@@ -1,7 +1,7 @@
 # awesome-self-consuming-ai-papers
 Papers about self-consuming generative models, which have a tendency to go MAD or collapse.
 
-Updated as of 5/14/2024.
+Sorted by upload date (oldest first). Updated as of 5/14/2024.
 
 ### "Solving" MADness:
 1. Self-Correcting Self-Consuming Loops for Generative Model Training
@@ -15,7 +15,7 @@ Updated as of 5/14/2024.
 5. Heat Death of Generative Models in Closed-Loop Learning
 
 ### Additional observations of MADness in self-consumption:
-1. Large Language Models Suffer From Their Own Output: An Analysis of the Self-Consuming Training Loop
+1. [arXiv 23] Large Language Models Suffer From Their Own Output: An Analysis of the Self-Consuming Training Loop
 2. The Curious Decline of Linguistic Diversity: Training Language Models on Synthetic Text
 3. Nepotistically Trained Generative-AI Models Collapse
 4. AI and the Problem of Knowledge Collapse
