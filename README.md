@@ -15,18 +15,24 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
 5. Heat Death of Generative Models in Closed-Loop Learning
 
 ### Additional observations of MADness in self-consumption:
-1. [arXiv 23] Large Language Models Suffer From Their Own Output: An Analysis of the Self-Consuming Training Loop
-2. The Curious Decline of Linguistic Diversity: Training Language Models on Synthetic Text
+1. The Curious Decline of Linguistic Diversity: Training Language Models on Synthetic Text
+2. Large Language Models Suffer From Their Own Output: An Analysis of the Self-Consuming Training Loop
 3. Nepotistically Trained Generative-AI Models Collapse
 4. AI and the Problem of Knowledge Collapse
 
 ### Ethical and societal implications of MADness:
-1. Are large language models a threat to digital public goods? evidence from activity on stack overflow
-2. Generative Artificial Intelligence Enhances Creativity but Reduces the Diversity of Novel Content
+1. [arXiv 23] [Are Large Language Models a Threat to Digital Public Goods? Evidence From Activity on Stack Overflow](https://arxiv.org/abs/2307.07367)
+   * ChatGPT poses a threat to digital public goods like Stack Overflow since it can answer some questions itself; its answers are privately generated for users, and are thus not uploaded online, hence reducing the amount of activity on Stack Overflow for programming languages which Stack Overflow has sufficient knowledge of.
+   * Authors: Maria del Rio-Chanona, Nadzeya Laurentsyeva, Johannes Wachs
+2. [arXiv 23] [Generative Artificial Intelligence Enhances Creativity but Reduces the Diversity of Novel Content](https://arxiv.org/abs/2311.09807)
+   * LLMs are finetuned recursively; the authors measure their creativity via novel metrics targeting lexical, syntactic, and semantic diversity. They show a consistent decrease in the diversity of the model outputs through successive iterations, which can be especially concerning for tasks demanding high levels of creativity. 
+   * Authors: Yanzhu Guo, Guokan Shang, Michalis Vazirgiannis, Chloé Clavel
 3. LLMs may dominate information access: Neural retrievers are biased towards LLM-generated texts
 
 ### Self-consumption for good (i.e., training generative models on AI-generated or AI-curated data):
-1. Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk
-2. Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
-3. Upgrading VAE Training With Unlimited Data Plans Provided by Diffusion Models
+1. [ICLR 24 rejected] [Upgrading VAE Training With Unlimited Data Plans Provided by Diffusion Models](https://openreview.net/forum?id=pyW37euNXb)
+   * The paper introduces a novel approach for training VAEs using samples from a pre-trained diffusion model to address the overfitting problem in VAE encoders, which improves generalization performance, amortization gap, and robustness over traditional training methods. Note that this method relies on the accuracy of the diffusion model and adds significant computaitonal overhead.
+   * Authors: Tim Z. Xiao, Johannes Zenn, Robert Bamler
+2. Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk
+3. Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
 4. How to Train Data-Efficient LLMs
