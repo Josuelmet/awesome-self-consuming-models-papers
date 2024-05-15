@@ -42,9 +42,6 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
 3. [arXiv 23] [Large Language Models Suffer From Their Own Output: An Analysis of the Self-Consuming Training Loop](https://arxiv.org/abs/2311.16822)
    * Self-consumption in LLMs can initially improve both quality and diversity. However, after a few generations the output inevitably degenerates in diversity - the rate of degeneration depends on the proportion of real and generated data.
    * Martin Briesch, Dominik Sobania, Franz Rothlauf
-4. [arXiv 24] [AI and the Problem of Knowledge Collapse](https://arxiv.org/abs/2404.03502)
-   * Unlike humans, AI models cannot choose their training data or seek out diverse forms of knowledge. To identify conditions under which knowledge collapse occurs, the author provides a simple model in which a community of learners or innovators choose traditional or AI-assisted methods. A 20% discount on AI-generated content generates public beliefs 2.3 times further from the truth than when there is no discount. An empirical approach to measuring the distribution of LLM outputs is provided in theoretical terms and illustrated through a specific example.
-   * Andrew J. Peterson
 
 ### Ethical and societal implications of MADness:
 1. [arXiv 23] [Are Large Language Models a Threat to Digital Public Goods? Evidence From Activity on Stack Overflow](https://arxiv.org/abs/2307.07367)
@@ -53,9 +50,15 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
 2. [arXiv 23] [Generative Artificial Intelligence Enhances Creativity but Reduces the Diversity of Novel Content](https://arxiv.org/abs/2312.00506)
    * This is an online experimental study where some writers could obtain ideas for a story from a generative AI platform. Access to AI increases the writers' creativity, with stories being evaluated as better written and more enjoyable, especially among less creative writers. However, AI-enabled stories are more similar to each other than stories by humans alone.
    * Anil R. Doshi, Oliver P. Hauser
-3. [ICLR 2024 AGI Workshop] [Neural Retrievers are Biased Towards LLM-Generated Content](https://openreview.net/forum?id=taFdHx5RTd)
+3. [arXiv 24] [Feedback Loops With Language Models Drive In-Context Reward Hacking](https://arxiv.org/abs/2402.06627)
+   * LLM feedback loops can cause in-context reward hacking (ICRH): for example, an LLM agent deployed to increase Twitter engagement may retrieve its own previous tweets and make them more controversial, increasing engagement but also toxicity. The authors identify and study two processes that lead to ICRH: output-refinement and policy-refinement, and provide three recommendations for evaluation to capture more instances of ICRH. 
+   * Alexander Pan, Erik Jones, Meena Jagadeesan, Jacob Steinhardt
+4. [ICLR 2024 AGI Workshop] [Neural Retrievers are Biased Towards LLM-Generated Content](https://openreview.net/forum?id=taFdHx5RTd)
    * Neural retrieval models (i.e., for search engines) tend to rank LLM-generated documents higher. The authors find this is because LLM-generated texts exhibit more focused semantics with less noise, making them easier for neural retrievers to semantic match. They thus also propose a plug-and-play debiased constraint for neural retrieval.
    * Sunhao Dai, Yuqi Zhou, Liang Pang, Weihao Liu, Xiaolin Hu, Yong Liu, Xiao Zhang, Gang Wang, Jun Xu
+5. [arXiv 24] [AI and the Problem of Knowledge Collapse](https://arxiv.org/abs/2404.03502)
+   * Unlike humans, AI models cannot choose their training data or seek out diverse forms of knowledge. To identify conditions under which knowledge collapse occurs, the author provides a simple model in which a community of learners or innovators choose traditional or AI-assisted methods. A 20% discount on AI-generated content generates public beliefs 2.3 times further from the truth than when there is no discount. An empirical approach to measuring the distribution of LLM outputs is provided in theoretical terms and illustrated through a specific example.
+   * Andrew J. Peterson
 
 ### Self-consumption for good (i.e., training generative models on AI-generated or AI-curated data):
 1. [arXiv 23] [Fair GANs through model rebalancing for extremely imbalanced class distributions](https://arxiv.org/abs/2308.08638)
