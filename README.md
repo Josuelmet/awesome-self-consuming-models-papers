@@ -11,7 +11,7 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
 1. [arXiv 24] [Self-Correcting Self-Consuming Loops for Generative Model Training](https://arxiv.org/abs/2402.07087)
    * The authors try to stabilize self-consuming generative model training. Introducing an idealized correction function, which maps a data point to be more likely under the true data distribution, theoretically stabilizes self-consumption exponentially. The authors propose self-correction functions, which rely on expert knowledge (e.g. the laws of physics programmed in a simulator), and empirically validate their effectiveness at avoiding model collapse on a human motion synthesis task (even when the ratio of synthetic data to real data is as high as 100%).
    * Nate Gillman, Michael Freeman, Daksh Aggarwal, Chia-Hong Hsu, Calvin Luo, Yonglong Tian, Chen Sun
-2. Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data 
+2. [arXiv 24] [Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data](https://arxiv.org/abs/2404.01413) 
    * The authors show that accumulating the successive generations of synthetic data alongside the original real data avoids model collapse. To understand why, they use an analytically tractable framework introduced by prior work in which a sequence of linear models are fit to the previous models' outputs. Under this framework, data accumulation provably limits the test error by a finite upper bound independent of the number of iterations (meaning model collapse no longer occurs).
    * Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, John Hughes, Tomasz Korbak, Rajashree Agrawal, Dhruv Pai, Andrey Gromov, Daniel A. Roberts, Diyi Yang, David L. Donoho, Sanmi Koyejo
 
@@ -33,7 +33,7 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
    * Matteo Marchi, Stefano Soatto, Pratik Chaudhari, Paulo Tabuada
 
 ### Additional observations of MADness in self-consumption:
-1. Nepotistically Trained Generative-AI Models Collapse
+1. [arXiv 23] [Nepotistically Trained Generative-AI Models Collapse](https://arxiv.org/abs/2311.12202)
    * When retrained on even small amounts of their own creation, Stable Diffusion produces highly distorted images; this distortion extends beyond the text prompts used in retraining. Furthermore, once poisoned, the Stable Diffusion struggles to fully heal even after retraining on only real images.
    * Matyas Bohacek, Hany Farid
 2. [arXiv 23] [The Curious Decline of Linguistic Diversity: Training Language Models on Synthetic Text](https://arxiv.org/abs/2311.09807)
