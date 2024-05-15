@@ -64,7 +64,7 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
 2. [arXiv 24] [Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk](https://arxiv.org/abs/2401.05033)
    * LLM training data is generated vai "self-talk". The authors introduce an automated way to measure the (partial) success of a dialogue. This metric is used to filter the generated conversational data that is fed back in LLM for training. The authors show that such self-talk data improves performance and have certain characteristics could be connected to their potential utility as training data.
    * Dennis Ulmer, Elman Mansimov, Kaixiang Lin, Justin Sun, Xibin Gao, Yi Zhang
-3. [Iterated Denoising Energy Matching for Sampling from Boltzmann Densities](https://arxiv.org/abs/2402.06121)
+3. [arXiv 24] [Iterated Denoising Energy Matching for Sampling from Boltzmann Densities](https://arxiv.org/abs/2402.06121)
    * iDEM is a scalable and efficient method to sample from unnormalized probability distributions. It makes use of the DEM objective, inspired by the stochastic regression and simulation-free principles of score and flow matching objectives while allowing one to learn off-policy, in a loop while itself generating new states which are subsequently learned on.
    * Tara Akhound-Sadegh, Jarrid Rector-Brooks, Avishek Joey Bose, Sarthak Mittal, Pablo Lemos, Cheng-Hao Liu, Marcin Sendera, Siamak Ravanbakhsh, Gauthier Gidel, Yoshua Bengio, Nikolay Malkin, Alexander Tong
 4. [arXiv 24] [How to Train Data-Efficient LLMs](https://arxiv.org/abs/2402.09668)
