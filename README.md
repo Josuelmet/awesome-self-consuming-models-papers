@@ -3,6 +3,10 @@ Papers about self-consuming generative models, which have a tendency to go MAD o
 
 Sorted by upload date (oldest first). Updated as of 5/14/2024.
 
+### Foundational work:
+1. [arXiv 23] [The Curse of Recursion: Training on Generated Data Makes Models Forget](https://arxiv.org/abs/2305.17493)
+2. [ICLR 24] [Self-Consuming Generative Models Go MAD](https://openreview.net/forum?id=ShjMHfmPs0)
+
 ### "Solving" MADness:
 1. [arXiv 24] [Self-Correcting Self-Consuming Loops for Generative Model Training](https://arxiv.org/abs/2402.07087)
    * The authors try to stabilize self-consuming generative model training. Introducing an idealized correction function, which maps a data point to be more likely under the true data distribution, theoretically stabilizes self-consumption exponentially. The authors propose self-correction functions, which rely on expert knowledge (e.g. the laws of physics programmed in a simulator), and empirically validate their effectiveness at avoiding model collapse on a human motion synthesis task (even when the ratio of synthetic data to real data is as high as 100%).
