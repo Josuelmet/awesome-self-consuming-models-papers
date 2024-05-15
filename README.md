@@ -58,15 +58,18 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
    * Sunhao Dai, Yuqi Zhou, Liang Pang, Weihao Liu, Xiaolin Hu, Yong Liu, Xiao Zhang, Gang Wang, Jun Xu
 
 ### Self-consumption for good (i.e., training generative models on AI-generated or AI-curated data):
-1. [ICLR 24 rejected] [Upgrading VAE Training With Unlimited Data Plans Provided by Diffusion Models](https://openreview.net/forum?id=pyW37euNXb)
+1. [arXiv 23] [Fair GANs through model rebalancing for extremely imbalanced class distributions](https://arxiv.org/abs/2308.08638)
+   * GANs that have learned imbalanced distributions are made balanced by self-generated data that has been sampled with an evolutionary algorithm so as to be balanced. The authors validate this method with StyleGAN2 and FFHQ/CIFAR10.
+   * Anubhav Jain, Nasir Memon, Julian Togelius
+2. [ICLR 24 rejected] [Upgrading VAE Training With Unlimited Data Plans Provided by Diffusion Models](https://openreview.net/forum?id=pyW37euNXb)
    * The paper introduces a novel approach for training VAEs using samples from a pre-trained diffusion model to address the overfitting problem in VAE encoders, which improves generalization performance, amortization gap, and robustness over traditional training methods. Note that this method relies on the accuracy of the diffusion model and adds significant computaitonal overhead.
    * Tim Z. Xiao, Johannes Zenn, Robert Bamler
-2. [arXiv 24] [Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk](https://arxiv.org/abs/2401.05033)
+3. [arXiv 24] [Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk](https://arxiv.org/abs/2401.05033)
    * LLM training data is generated via "self-talk". The authors introduce an automated way to measure the (partial) success of a dialogue. This metric is used to filter the generated conversational data that is fed back in LLM for training. The authors show that such self-talk data improves performance and have certain characteristics could be connected to their potential utility as training data.
    * Dennis Ulmer, Elman Mansimov, Kaixiang Lin, Justin Sun, Xibin Gao, Yi Zhang
-3. [arXiv 24] [Iterated Denoising Energy Matching for Sampling from Boltzmann Densities](https://arxiv.org/abs/2402.06121)
+4. [arXiv 24] [Iterated Denoising Energy Matching for Sampling from Boltzmann Densities](https://arxiv.org/abs/2402.06121)
    * iDEM is a scalable and efficient method to sample from unnormalized probability distributions. It makes use of the DEM objective, inspired by the stochastic regression and simulation-free principles of score and flow matching objectives while allowing one to learn off-policy, in a loop while itself generating new states which are subsequently learned on.
    * Tara Akhound-Sadegh, Jarrid Rector-Brooks, Avishek Joey Bose, Sarthak Mittal, Pablo Lemos, Cheng-Hao Liu, Marcin Sendera, Siamak Ravanbakhsh, Gauthier Gidel, Yoshua Bengio, Nikolay Malkin, Alexander Tong
-4. [arXiv 24] [How to Train Data-Efficient LLMs](https://arxiv.org/abs/2402.09668)
+5. [arXiv 24] [How to Train Data-Efficient LLMs](https://arxiv.org/abs/2402.09668)
    * The authors investigate whether LLMs can curate data samples that sufficiently describe a real training set while being much more concise. They propose querying LLMs to assess the quality of training samples; the resulting curated data can train models up to 70% faster than real data, even when rejecting up to 90% of the original real dataset. 
    * Noveen Sachdeva, Benjamin Coleman, Wang-Cheng Kang, Jianmo Ni, Lichan Hong, Ed H. Chi, James Caverlee, Julian McAuley, Derek Zhiyuan Cheng
