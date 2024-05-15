@@ -15,7 +15,7 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
    * The authors show that accumulating the successive generations of synthetic data alongside the original real data avoids model collapse. To understand why, they use an analytically tractable framework introduced by prior work in which a sequence of linear models are fit to the previous models' outputs. Under this framework, data accumulation provably limits the test error by a finite upper bound independent of the number of iterations (meaning model collapse no longer occurs).
    * Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, John Hughes, Tomasz Korbak, Rajashree Agrawal, Dhruv Pai, Andrey Gromov, Daniel A. Roberts, Diyi Yang, David L. Donoho, Sanmi Koyejo
 
-### Analyzing or explaining self-consumption/MADness:
+### Analyzing or explaining self-consumption/MADness (via theory):
 1. [arXiv 24] [A Tale of Tails: Model Collapse as a Change of Scaling Laws](https://arxiv.org/abs/2402.07043) (same authors as Model Collapse Demystified)
    * Neural scaling laws predict the improvements of large models when increasing capacity and the size of training data. How will the scaling laws change when training data is partially synthetic? The authors develop a theoretical framework of model collapse through the lens of scaling laws. They discover a wide range of decay phenomena, analyzing loss of scaling, shifted scaling with number of generations, the "un-learning" of skills, and grokking when mixing human and synthesized data. Their theory is validated by large-scale experiments with a transformer on an arithmetic task and text generation using the large language model Llama2.
    * Elvis Dohmatob, Yunzhen Feng, Pu Yang, Francois Charton, Julia Kempe
