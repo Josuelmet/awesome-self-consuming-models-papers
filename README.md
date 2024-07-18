@@ -16,6 +16,7 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
    * Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, John Hughes, Tomasz Korbak, Rajashree Agrawal, Dhruv Pai, Andrey Gromov, Daniel A. Roberts, Diyi Yang, David L. Donoho, Sanmi Koyejo
 3. [arXiv 24] [Removing Bias from Maximum Likelihood Estimation with Model Autophagy](https://arxiv.org/pdf/2405.13977)
    * The authors propose autophagy-Penalized Likelihood Estimation (PLE), which uses hypernetworks to outperform Maximum-Likelihood Estimation (MLE) with respect to minority-class fairness and stability in self-consumption.
+   * Paul Mayer, Lorenzo Luzi, Ali Siahkoohi, Don H. Johnson, Richard G. Baraniuk
 
 ### Analyzing or explaining self-consumption/MADness (via theory):
 1. [arXiv 24] [A Tale of Tails: Model Collapse as a Change of Scaling Laws](https://arxiv.org/abs/2402.07043) (same authors as Model Collapse Demystified)
