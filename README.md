@@ -14,6 +14,8 @@ Sorted by upload date (oldest first). Updated as of 5/14/2024.
 2. [arXiv 24] [Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data](https://arxiv.org/abs/2404.01413) 
    * The authors show that accumulating the successive generations of synthetic data alongside the original real data avoids model collapse. To understand why, they use an analytically tractable framework introduced by prior work in which a sequence of linear models are fit to the previous models' outputs. Under this framework, data accumulation provably limits the test error by a finite upper bound independent of the number of iterations (meaning model collapse no longer occurs).
    * Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, John Hughes, Tomasz Korbak, Rajashree Agrawal, Dhruv Pai, Andrey Gromov, Daniel A. Roberts, Diyi Yang, David L. Donoho, Sanmi Koyejo
+3. [arXiv 24] [Removing Bias from Maximum Likelihood Estimation with Model Autophagy](https://arxiv.org/pdf/2405.13977)
+   * The authors propose autophagy-Penalized Likelihood Estimation (PLE), which uses hypernetworks to outperform Maximum-Likelihood Estimation (MLE) with respect to minority-class fairness and stability in self-consumption.
 
 ### Analyzing or explaining self-consumption/MADness (via theory):
 1. [arXiv 24] [A Tale of Tails: Model Collapse as a Change of Scaling Laws](https://arxiv.org/abs/2402.07043) (same authors as Model Collapse Demystified)
